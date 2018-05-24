@@ -8,7 +8,7 @@ html(lang='en')
     meta(name='description', content='')
     meta(name='author', content='')
 
-    title SB Admin - Start Bootstrap Template
+    title SB Admin - Servicio HyP Grupo Alden
 
     include includes/css/core.pug
 
@@ -22,19 +22,18 @@ html(lang='en')
         .card-body
           form
             .form-group
-              label(for='exampleInputEmail1') Email address
-              input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Enter email')
+
+              input#exampleInputEmail1.form-control(type='email', aria-describedby='emailHelp', placeholder='Ingresar correo')
             .form-group
-              label(for='exampleInputPassword1') Password
-              input#exampleInputPassword1.form-control(type='password', placeholder='Password')
+
+              input#exampleInputPassword1.form-control(type='password', placeholder='Contraseña')
             .form-group
               .form-check
                 label.form-check-label
                   input.form-check-input(type='checkbox')
-                  |                   Remember Password
+                  |                   Recordar Credenciales
             a.btn.btn-primary.btn-block(href='index.html') Login
           .text-center
-            a.d-block.small.mt-3(href='register.html') Register an Account
-            a.d-block.small(href='forgot-password.html') Forgot Password?
+                    a.d-block.small(href='forgot-password.html') Olvidaste tu contraseña?
 
     include includes/js/core.pug
