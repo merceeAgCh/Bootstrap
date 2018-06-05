@@ -1,218 +1,155 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Documentación de Recepción</title>
+    <title>Documentar Asesor</title>
     <!-- Bootstrap core CSS-->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template-->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+    <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
+
 </head>
-<dl>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-    <a class="navbar-brand" href="index.html">Menu</a>
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
-            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Recepción">
-                <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
-                    <i class="fa fa-fw fa-wrench"></i>
-                    <span class="nav-link-text">RECEPCIÓN</span>
-                </a>
-<div class="collapse navbar-collapse">
-    <table  align="center" width="*%" border=0 frame="" rules="null" cellspacing=2 cellpadding=0>
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn" capture="camera" multiple="">
-                </div>
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+<!Navigation..-->
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+       <a class="navbar-brand" href="Documentar Asesor.html">MENU</a>
+       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+           <ul class="navbar-nav navbar-sidenav" id="examleAccordion">
+               <li class="nav-item" data-toggle="tooltip" data-placement="right" title="RECEPCIÓN">
+                   <a class="nav-link" href="#Recepcion">
+                       <i class="fa fa-fw fa-RECEPCIÓN"></i>
+                       <span class="nav-link-text">RECEPCIÓN</span>
+                   </a>
+               </li>
+           </ul>
+           <UL class="navbar-nav sidenav-toggler">
+               <li class="nav-item">
+                   <a class="nav-link text-center" id="sidenavToggler">
+                       <i class="fa fa-fw fa-angle-left"></i>
+                   </a>
+               </li>
+           </UL>
+           <ul class="navbar-nav ml-auto">
+               <li class="nav-item dropdown">
+                   <a class="nav-link dropdown-toggle mr-lg-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="flase">
+                       <!--<i class="fa fa-fw fa-envelope"></i>--><!--Folder de correo-->
+                       <span class="d-lg-none">
+                           <span class="badge badge-pill badge-primary"></span>
+                       </span>
+                       <span class="indicator text-primary d-none d-lg-block">
+                          <!-- <i class="fa fa-fw fa-circle"></i>--> <!--Circulo azul -->
+                       </span>
+                   </a>
+               </li>
+           </ul>
+           <li>
+           <form class="form-inline my-2 my-lg-0 mr-lg-2">
+               <div class="input-group">
+                   <input class="form-control" type="text" placeholder="Buscar Orden">
+                   <span class="input-group-append">
+                       <button class="btn btn-primary" type="button">
+                           <i class="fa fa-search"></i>
+                       </button>
+                   </span>
+               </div>
+           </form>
+           </li>
+           <li class="nav-item">
+               <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                   <i class="fa fa-fw fa-sign-out"></i> CERRAR SESIÓN</a>
+           </li>
+       </div>
+   </nav>
+   <DIV class="content-wrapper">
+       <div class="container-fluid">
+           <ol class="breadcrumb">
+               <li class="breadcrumb-item">
+                   <a href="#" RECEPCIÓN></a>
+               </li>
+               <li class="breadcrumb-item active">Documentar Orden</li>
+           </ol>
+           <h1>Documentar Recepción</h1>
+           <hr>
+           <p>Da click en elegir archivos para poder hacer la toma de fotografías.</p>
+           <div class="fileUpload">
+               <div class="fileUpload">
+                   <span class="custom-span"> <i style="font-size:50px;" class="fa   fa-camera-retro"></i> </span>
+                   <p class="custom-para"></p>
+                   <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn" capture="camera" multiple="">
+               </div>
 
-            </div>
-        </td>
-            <td>VIN</td>
-        </tr>
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn1" capture="camera" multiple="">
-                </div>
+           </div>
+           <!--<a class="btn btn-primary" id="toggleNavPosition">Navbar toggle</a>--><!--Esto es para que sea solo un boton-->
+           <div style="height: 100px;"></div>
+       </div>
+       <footer class="sticky-footer">
+           <div class="container">
+               <div class="text-center">
+                   <small>Copyright © Servicio HyP Grupo Alden 2018</small>
+               </div>
+           </div>
+       </footer>
+       <!--Scroll para el top button-->
+       <a class="scroll-to-top rounded" href="#page-top">
+           <i class="fa fa-angle-up"></i>
+       </a>
+       <!--Logout Mod-->
+       <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+       aria-hidden="true">
+           <div class="modal-dialog" role="document">
+               <div class="modal-content">
+                   <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cerrar Sesión</h5>
+                       <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                           <span aria-hidden="true">x</span>
+                       </button>
+                   </div>
+                   <div class="modal-body">¿Deseas Salir?</div>
+                   <div class="modal-footer">
+                       <button class="btn btn-secondary" type="button" data-dismiss="modal">
+                           Cancelar
+                       </button>
+                       <a class="btn btn-primary" href="login.html">Salir</a>
+                   </div>
+               </div>
+           </div>
+       </div>
+       <!-- Bootstrap core JavaScript-->
+       <script src="vendor/jquery/jquery.min.js"></script>
+       <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+       <!-- Core plugin JavaScript-->
+       <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+       <!-- Custom scripts for all pages-->
+       <script src="js/sb-admin.min.js"></script>
+       <!-- Custom scripts for this page-->
+       <!-- Toggle between fixed and static navbar-->
+       <script>
+           $('#toggleNavPosition').click(function() {
+      $('body').toggleClass('fixed-nav');
+      $('nav').toggleClass('fixed-top static-top');
+    });
 
-            </div>
+    </script>
+       <!-- Toggle between dark and light navbar-->
+       <script>
+    $('#toggleNavColor').click(function() {
+      $('nav').toggleClass('navbar-dark navbar-light');
+      $('nav').toggleClass('bg-dark bg-light');
+      $('body').toggleClass('bg-dark bg-light');
+    });
 
-            <td>FRENTE</td>
-        </tr>
-
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn2" capture="camera" multiple="">
-                </div>
-
-            </div>
-            <td>TRASERO</td>
-        </tr>
-
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn3" capture="camera" multiple="">
-                </div>
-
-            </div>
-            <td>LATERAL DERECHO</td>
-        </tr>
-
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn4" capture="camera" multiple="">
-                </div>
-
-            </div>
-            <td>LATERAL IZQUIERDO</td>
-        </tr>
-
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn5" capture="camera" multiple="">
-                </div>
-
-            </div>
-            <td>HERRAMIENTAS</td>
-        </tr>
-
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn6" capture="camera" multiple="">
-                </div>
-
-            </div>
-            <td>INSTRUMENTOS</td>
-        </tr>
-
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn7" capture="camera" multiple="">
-                </div>
-
-            </div>
-            <td>VALE</td>
-        </tr>
-
-        <tr><td>
-            <div class="fileUpload">
-                <div class="fileUpload">
-                    <span class="custom-span"> <i style="font-size:70px;" class="fa   fa-camera-retro"></i> </span>
-                    <p class="custom-para"></p>
-                    <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn8" capture="camera" multiple="">
-                </div>
-
-            </div>
-            <td>OTROS</td>
-        </tr>
-
-    </table>
-
-</div>
-
-    <ul class="navbar-nav sidenav-toggler">
-        <li class="nav-item">
-            <a class="nav-link text-center" id="sidenavToggler">
-                <i class="fa fa-fw fa-angle-left"></i>
-            </a>
-        </li>
-    </ul>
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                <i class="fa fa-fw fa-sign-out"></i>Cerrar Sesión</a>
-        </li>
-    </ul>
-    <div class="content-wrapper">
-        <div class="container-fluid">
-            <!-- Breadcrumbs-->
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item">
-                    <li>Para la captura de las imagenes</li>
-                </li>
-                <li>Da click en Elegir Archivo</li>
-            </ol>
-            <footer class="sticky-footer">
-                <div class="container">
-                    <div class="text-center">
-                        <small>Copyright © Servicio HyP Grupo Alden 2018</small>
-                    </div>
-                </div>
-            </footer>
-            <a class="scroll-to-top rounded" href="#page-top">
-                <i class="fa fa-angle-up"></i>
-            </a>
-            <!-- Logout Modal-->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-                 aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Cerrar Sesión</h5>
-                            <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">×</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">Deseas Salir?.</div>
-                        <div class="modal-footer">
-                            <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                            <a class="btn btn-primary" href="login.html">Salir</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-<!-- Bootstrap core JavaScript-->
-<script src="vendor/jquery/jquery.min.js"></script>
-<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<!-- Core plugin JavaScript-->
-<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-<!-- Page level plugin JavaScript-->
-<script src="vendor/chart.js/Chart.min.js"></script>
-<script src="vendor/datatables/jquery.dataTables.js"></script>
-<script src="vendor/datatables/dataTables.bootstrap4.js"></script>
-<!-- Custom scripts for all pages-->
-<script src="js/sb-admin.min.js"></script>
-<!-- Custom scripts for this page-->
-<script src="js/sb-admin-datatables.min.js"></script>
-<script src="js/sb-admin-charts.min.js"></script>
-        </div>
-    </div>
-
-</dl>
-</nav>
-
+    </script>
+   </DIV>
 </body>
-
 </html>
