@@ -300,6 +300,7 @@ body.sidenav-toggled #mainNav.static-top #sidenavToggler i {
   display: none;
 }
 
+
 @media (min-width: 992px) {
   body.sidenav-toggled .content-wrapper {
     margin-left: 55px;
