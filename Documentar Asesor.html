@@ -14,6 +14,9 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
+    <!--Link para fa font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
 </head>
 <body class="fixed-nav sticky-footer bg-dark" id="page-top">
@@ -52,7 +55,6 @@
                        </span>
                    </a>
                </li>
-           </ul>
            <li>
            <form class="form-inline my-2 my-lg-0 mr-lg-2">
                <div class="input-group">
@@ -67,26 +69,33 @@
            </li>
            <li class="nav-item">
                <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                   <i class="fa fa-fw fa-sign-out"></i> CERRAR SESIÓN</a>
+                   <i class="fas fa-sign-out-alt"></i>Cerrar Sesión</a>
            </li>
+           </ul>
        </div>
    </nav>
-   <DIV class="content-wrapper">
+   <DIV class="content-wrapper" align="center">
+       <div align="center"> <h1>Documentar Recepción</h1></div>
        <div class="container-fluid">
            <ol class="breadcrumb">
                <li class="breadcrumb-item">
                    <a href="#" RECEPCIÓN></a>
                </li>
-               <li class="breadcrumb-item active">Documentar Orden</li>
+               <div align="center">
+               <li><i class="fas fa-camera fa-9x"></i>
+                   <p>Da click en elegir archivos para poder hacer la toma de fotografías.</p>
+               </div>
+               </li>
            </ol>
-           <h1>Documentar Recepción</h1>
            <hr>
-           <p>Da click en elegir archivos para poder hacer la toma de fotografías.</p>
            <div class="fileUpload">
                <div class="fileUpload">
-                   <span class="custom-span"> <i style="font-size:50px;" class="fa   fa-camera-retro"></i> </span>
-                   <p class="custom-para"></p>
-                   <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn" capture="camera" multiple="">
+                   <p> <i class="fa   fa-camera-retro fa-3x"></i>
+                       <font size="6">&nbsp; &nbsp; &nbsp;VIN </font>
+                   </p>
+                   <!--<p class="custom-para"></p>-->
+                   <input type="file" accept="image/*" class="upload" name="foto[]" id="uploadBtn"
+                          capture="camera" multiple="" >
                </div>
 
            </div>
@@ -96,7 +105,10 @@
        <footer class="sticky-footer">
            <div class="container">
                <div class="text-center">
-                   <small>Copyright © Servicio HyP Grupo Alden 2018</small>
+                   <small>&nbsp;&nbsp;Copyright © Servicio HyP Grupo Alden 2018&nbsp;&nbsp;</small>
+                    <a class="btn btn-primary" href="indexAs.html">
+                        &nbsp; <i class="fas fa-reply 5x">&nbsp;Regresar</i>
+                   </a>
                </div>
            </div>
        </footer>
@@ -106,24 +118,23 @@
        </a>
        <!--Logout Mod-->
        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-       aria-hidden="true">
+            aria-hidden="true">
            <div class="modal-dialog" role="document">
                <div class="modal-content">
                    <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Cerrar Sesión</h5>
+                       <h5 class="modal-title" id="exampleModalLabel">Cerrar Sesión</h5>
                        <button class="close" type="button" data-dismiss="modal" aria-label="Close">
-                           <span aria-hidden="true">x</span>
+                           <span aria-hidden="true">×</span>
                        </button>
                    </div>
-                   <div class="modal-body">¿Deseas Salir?</div>
+                   <div class="modal-body">Deseas Salir?.</div>
                    <div class="modal-footer">
-                       <button class="btn btn-secondary" type="button" data-dismiss="modal">
-                           Cancelar
-                       </button>
+                       <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
                        <a class="btn btn-primary" href="login.html">Salir</a>
                    </div>
                </div>
            </div>
+
        </div>
        <!-- Bootstrap core JavaScript-->
        <script src="vendor/jquery/jquery.min.js"></script>
