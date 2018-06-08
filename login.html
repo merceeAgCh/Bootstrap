@@ -21,14 +21,14 @@
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Inicio de sesión</div>
       <div class="card-body">
-        <form>
+        <form method="POST" action="entrar.php" accept-charset="UTF-8" autocomplete="off" class="form-signin" name="login" id="login" role="form">
           <div class="form-group">
-           <!-- <label for="exampleInputEmail1">Correo</label>-->
-            <input class="form-control" id="exampleInputEmail1" type="email" aria-describedby="emailHelp" placeholder="Ingresa correo" autocomplete="on">
+            <input class="form-control" type="email" required class="form-control"
+                    placeholder="Ingresa correo" autofocus>
           </div>
           <div class="form-group">
-           <!-- <label for="exampleInputPassword1">Contraseña</label>-->
-            <input class="form-control" id="exampleInputPassword1" type="password" placeholder="Contraseña">
+            <input class="form-control" type="password"  class="form-control"
+                   required name="form-control" placeholder="Contraseña" autofocus>
           </div>
           <div class="form-group">
             <div class="form-check">
@@ -36,27 +36,39 @@
                 <input class="form-check-input" type="radio" id="check"  autofocus> Recordar Credenciales</label>
             </div>
           </div>
-          <!--<a class="btn btn-primary btn-block" href="indexTec.html">Login</a>-->
+          <div style="text-align:center;">
+            <button id="btnlogin" width="90" height="90" border="0" type="submit" name="btnlogin">
+              <span style="font-size:10px;" class="glyphicon glyphicon-off" aria-hidden="true">
+                <a  href="indexAs.html" title="menu asesor"><img src="images/logo.jpg"
+                                                                  width="150" height="150"></a>
+              </span>
+            </button>
+          </div>
+          <!--<a class="btn btn-primary btn-block" href="indexTec.html">Login</a>
           <div class="input-group mb-3" style="justify-content: center">
            <!-- <input type="image" name="vw" src="images/logo.jpg"   name="btnlogin"
-                   id ="btnlogin"  width="90" height="90">-->
+                   id ="btnlogin"  width="90" height="90">
             <a  href="indexAs.html" title="menu asesor"><img src="images/logo.jpg"
                                                                  border="0" width="150" height="150"></a>
-          </div>
+          </div>-->
         </form>
         <div class="text-center">
           <!--<a class="d-block small mt-3" href="register.html">Register an Account</a>-->
 
-          <a class="d-block small" href="forgot-password.html">Olvidaste tu contraseña?</a>
+          <a class="d-block small" href="#">Olvidaste tu contraseña?</a>
         </div>
       </div>
     </div>
   </div>
+
   <!-- Bootstrap core JavaScript-->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script>
+document.oncontextmenu = function(){return false};
+</script>
 </body>
 
 </html>
