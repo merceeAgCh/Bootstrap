@@ -14,6 +14,11 @@
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <!-- Custom styles for this template-->
   <link href="css/sb-admin.css" rel="stylesheet">
+    <!--Link para fa font awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <!---Hacer la pagina ajustable-->
+    <link rel="stylesheet" media="screen" type="text/css" href="normal.css" />
 </head>
 
 <body class="bg-dark">
@@ -21,7 +26,7 @@
     <div class="card card-login mx-auto mt-5">
       <div class="card-header">Inicio de sesión</div>
       <div class="card-body">
-        <form method="POST" action="entrar.php" accept-charset="UTF-8" autocomplete="off" class="form-signin" name="login" id="login" role="form">
+        <form>
           <div class="form-group">
             <input class="form-control" type="email" required class="form-control"
                     placeholder="Ingresa correo" autofocus>
@@ -38,8 +43,8 @@
           </div>
           <!--<a class="btn btn-primary btn-block" href="indexTec.html">Login</a>-->
           <div class="input-group mb-3" style="justify-content: center">
-            <button  type="submit">
-                <a href="indexAs.html" class="fa fa-power-off" style="font-size:90px;"></a>
+            <button class="btn btn-login" type="submit">
+                <a href="indexAs.html" class="fas fa-power-off" style="font-size:90px;"></a>
             </button>
           </div>
         </form>
